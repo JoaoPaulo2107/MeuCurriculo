@@ -12059,3 +12059,6 @@ textarea.form-control-lg {
 /*# sourceMappingURL=bootstrap.css.map */
 
 /* Reseta algumas margens e paddings padrão */
+ .p-3{
+  background-color: white;
+ }
