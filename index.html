@@ -17,24 +17,16 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#"><!--Home --></a>
+            <a class="nav-link active" aria-current="page" href="#sobre-mim">Sobre mim</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#"><!--Link--></a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              <!--Dropdown -->
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
+            <a class="nav-link" href="#cursos">Cursos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" aria-disabled="true"><!-- Disabled --> </a>
+            <a class="nav-link" href="#competencias">Competências socioemocionais</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#capacidades">Capacidades</a>
           </li>
         </ul>
         <form class="d-flex" role="search">
@@ -44,65 +36,56 @@
       </div>
     </div>
   </nav>
+
   <header>
     <!--Aqui vai o menu de navegação -->
   </header>
 
   <div class="container">
-    <center> <h2>Sobre mim</h2> </center>
+    <center><h2 id="sobre-mim">Sobre mim</h2></center>
     <main>
-         <!-- Aqui vai um breve comentario sobre mim  -->
       <section>
-        <p>Meu nome é João Paulo, um estudante de 16 anos no primeiro ano do curso de Informática para a Web na ETEC Maria Cristina Medeiros. Com noções básicas de HTML,CSS e python, escolhi essa área por meu interesse em trabalhar remotamente e estar sempre em frente ao computador. Tenho inglês pré-intermediário e sou apaixonado por leitura de webtoons,mangás,manhwas, filmes e videogames. Minha matéria favorita é matemática, e tenho facilidade em comunicação, tenho bom tom de voz e capacidade de aprendizado rápido. Estou ansioso para poder aplicar minhas habilidades e aprender mais sobre desenvolvimento web enquanto trabalho.</p>
-     
+        <p>Meu nome é João Paulo, um estudante de 16 anos no primeiro ano do curso de Informática para a Web na ETEC Maria Cristina Medeiros. Com noções básicas de HTML, CSS e Python, escolhi essa área por meu interesse em trabalhar remotamente e estar sempre em frente ao computador. Tenho inglês pré-intermediário e sou apaixonado por leitura de webtoons, mangás, manhwas, filmes e videogames. Minha matéria favorita é matemática, e tenho facilidade em comunicação, bom tom de voz e capacidade de aprendizado rápido. Estou ansioso para aplicar minhas habilidades e aprender mais sobre desenvolvimento web enquanto trabalho.</p>
       </section>
-      <br>
-      <br>
-      <br>
+      <br><br><br>
 
-      <center><h2>Cursos</h2></center>
-         <!-- Aqui vão aparecer cards sobre os cursos que já fiz  -->
-      <section> <div class="container text-center">
-        <div class="row">
-          <div class="col">
-            <div class="card" style="width: 18rem;">
-              <img src="img/frente-ls-idiomas.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Ls idiomas</h5>
-                <p class="card-text">Faço inglês pela LS idiomas desde o segundo semestre de 2022(2 anos)</p>
-                
+      <center><h2 id="cursos">Cursos</h2></center>
+      <section>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col">
+              <div class="card" style="width: 18rem;">
+                <img src="img/frente-ls-idiomas.jpg" class="card-img-top" alt="LS Idiomas">
+                <div class="card-body">
+                  <h5 class="card-title">LS Idiomas</h5>
+                  <p class="card-text">Faço inglês pela LS Idiomas desde o segundo semestre de 2022 (2 anos).</p>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col">
-            <div class="card" style="width: 18rem;">
-              <img src="img/ETEC MCM.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">ETEC</h5>
-                <p class="card-text">Faço ensino medio com habilitação tecnica para informatica para web desde o 1°smestre de 2024</p>
-                
+            <div class="col">
+              <div class="card" style="width: 18rem;">
+                <img src="img/logo-etec.png" class="card-img-top" alt="ETEC">
+                <div class="card-body">
+                  <h5 class="card-title">ETEC</h5>
+                  <p class="card-text">Faço ensino médio com habilitação técnica em Informática para Web desde o 1° semestre de 2024.</p>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col">
-            <div class="card" style="width: 18rem;">
-              <img src="img/logo-do-sesi.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">SESI</h5>
-                <p class="card-text">Fiz o ensino fundamental na rede SESI,em Ribeirão Pires </p>
-               
+            <div class="col">
+              <div class="card" style="width: 18rem;">
+                <img src="img/logo-sesi.jpg" class="card-img-top" alt="SESI">
+                <div class="card-body">
+                  <h5 class="card-title">SESI</h5>
+                  <p class="card-text">Fiz o ensino fundamental na rede SESI em Ribeirão Pires.</p>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-        
-     
       </section>
-      <section><!-- Aqui vou listar minhas principais competências socioemocionais   -->
-        <!-- vou usar o accordeon do bootsrap  -->
 
-        <center><h2>Competências socioemocionais</h2></center>
+      <center><h2 id="competencias">Competências socioemocionais</h2></center>
+      <section>
         <div class="container overflow-hidden text-center">
           <div class="row gy-5">
             <div class="col-6">
@@ -119,117 +102,95 @@
             </div>
           </div>
         </div>
-      </section> 
-      <section>
-
-        <section><!-- Aqui vou listar minhas principais competências socioemocionais   -->
-          <!-- vou usar o accordeon do bootsrap  -->
-
-          
-            <!DOCTYPE html>
-            <html lang="pt-BR">
-            <head>
-                <meta charset="UTF-8">
-                <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                <center><h2>Capacidades</h2></center>
-                <!-- Bootstrap CSS -->
-                <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
-            </head>
-            <body>
-                <div class="container mt-4">
-                    <div class="accordion" id="accordionExample">
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    <h4>Javascript</h4>
-                                </button>
-                            </h2>
-                            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    Sou iniciante na parte de HTML,e desenvolvi um site em Javascript,com foco em HTML e CSS,inclusive desenvolvi um site nessa linguagem
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    <h4>Photoshop</h4>
-                                </button>
-                            </h2>
-                            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    Conheço um pouco sobre photoshop
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    <h4>Python</h4>
-                                </button>
-                            </h2>
-                            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    Em python, conheço laços de repetições e condicionais
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Novo item adicionado -->
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                    <h4>Inglês</h4>
-                                </button>
-                            </h2>
-                            <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    Tenho inglês pré-intermediário
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            
-                <!-- Bootstrap Bundle with Popper -->
-                <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
-            </body>
-            </html>
-            
-        </section> 
-        <br><br><br><br>
-      </p>
-  </div>
-
-        <!-- Aqui vai um formulário para contato -->
       </section>
-    <section>
-    
-    </section>
-    </main>
 
-  <footer>
-    <footer style="background-color: #f8f9fa; padding: 40px; text-align: center; border-top: 1px solid #e0e0e0;">
-      <div style="max-width: 1500px; margin: 0 auto;">
-          <p style="margin: 0; font-size: 14px; color: #333;">
-              &copy; 2024 João Paulo. Todos os direitos reservados.
-          </p>
-          <ul style="list-style: none; padding: 0; margin: 10px 0;">
-              <li style="display: inline; margin-right: 15px;">
-                  <a href="joao.p.azevedo2107@gmail.com" style="text-decoration: none; color: #007bff;">gmail</a>
-                  <div style="margin: 10px 0;">
-                  
+      <section>
+        <center><h2 id="capacidades">Capacidades</h2></center>
+        <div class="container mt-4">
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  <h4>Javascript</h4>
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Sou iniciante na parte de HTML e desenvolvi um site em Javascript, com foco em HTML e CSS.
                 </div>
-              </li>
-          </ul>
-          <p style="margin: 0; font-size: 12px; color: #666;">
-              Feito por João Paulo Souza Azevedo
-    <!-- informações gerais sobre o desenvolvimento do site -->
-  </footer>
-
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  <h4>Photoshop</h4>
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Conheço um pouco sobre Photoshop.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  <h4>Python</h4>
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Em Python, conheço laços de repetição e condicionais.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  <h4>Inglês</h4>
+                </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Tenho inglês pré-intermediário.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <br><br><br><br>
+    </main>
+    <footer style="background-color: #f8f9fa; padding: 40px; text-align: center; border-top: 1px solid #e0e0e0; width: 100%; position: relative;">
+      <div>
+        <p style="margin: 0; font-size: 14px; color: #333;">
+          &copy; 2024 João Paulo. Todos os direitos reservados.
+        </p>
+        <p style="margin: 0; font-size: 14px; color: #333;">
+          Endereço: Rua Prefeito Francisco Arnoni, Vila Lavínia, 303, Rio Grande da Serra, Brasil
+        </p>
+        <p style="margin: 0; font-size: 14px; color: #333;">
+          Coordenadas: -23.6999, -46.3591
+        </p>
+        <div style="margin: 20px 0;">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.9796476234014!2d-46.40372832378301!3d-23.74810516848128!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce1320a9316485%3A0xd3b23dc17502658f!2sR.%20Pref.%20Francisco%20Arnone%2C%20303%20-%20Vila%20Lavinia%2C%20Rio%20Grande%20da%20Serra%20-%20SP%2C%2009450-000!5e0!3m2!1spt-BR!2sbr!4v1727145479135!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <ul style="list-style: none; padding: 0; margin: 10px 0;">
+          <li style="display: inline; margin-right: 15px;">
+            <a href="mailto:joao.p.azevedo2107@gmail.com" style="text-decoration: none; color: #007bff;">Gmail</a>
+          </li>
+          <li style="display: inline; margin-right: 15px;">
+            <a href="https://github.com/JoaoPaulo2107" target="_blank" style="text-decoration: none; color: #007bff;">GitHub</a>
+          </li>
+        </ul>
+        <p style="margin: 0; font-size: 12px; color: #666;">
+          Feito por João Paulo Souza Azevedo
+        </p>
+      </div>
+    </footer>
+    
   </div>
-  <script src="js/bootstrap.js"> </script>
+
+  <script src="js/bootstrap.js"></script>
 </body>
 </html>
-<!-- Colocar minha localização com o maps -->
-<!-- dar uma olhada no grid -->
- 
